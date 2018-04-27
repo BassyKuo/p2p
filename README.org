@@ -1,10 +1,13 @@
 #+OPTIONS: num:t toc:nil H:2 ^:nil f:nil TeX:nil LaTeX:nil
 #+STYLE: <link href="css/org.css" rel="stylesheet" type="text/css"/>
 
-#+TITLE: Remote Desktop Support with P2P VNC
-#+AUTHOR: Dashamir Hoxha
-#+EMAIL: dashohoxha@gmail.com
-#+DATE: 02 February 2014
+#+FORK_FROM: https://github.com/docker-build/p2p
+
+#+TITLE: Remote Desktop Support with P2P TIGERVNC
+#+AUTHOR: Bassy Kuo
+#+AUTHOR_EMAIL: bassykuo@gmail.com
+#+VERSION_DATE: 27 April 2014
+
 
   VNC is a well-known tool for remote desktop view and control. The
   two computers establish a TCP connection so that one of them can
@@ -24,8 +27,11 @@
   explain the tricks and hacks that can be used in such a case in
   order to establish a secure connection to a remote desktop.
 
-  This project has some scripts that simplify the installation of a
-  P2P server, and the connection between the two clients.
+  This project is forked from [[https://github.com/docker-build/p2p][p2p-vnc]] 
+  but supports *tigervnc* users to has the P2P connection between 
+  the two clients. If you are looking for *x11vnc* version, please go to https://github.com/docker-build/p2p 
+  which is provided by dashohoxha.
+  
 
 
 * Basic Installation and Usage
